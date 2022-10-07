@@ -11,7 +11,7 @@ function switchSample(topic) {
 }
 
 function PayMenu() {
-  const topic = useParams()
+  const topic = useParams('topic')
 
   return (
     switchSample(topic)
